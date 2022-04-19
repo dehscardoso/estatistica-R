@@ -19,7 +19,7 @@ memory.limit(24576)
 #------------------
 
 # FORNECENDO DIRETÓRIO DO ARQUIVO
-setwd("C:/Users/Luciano/Desktop/Curso_estatistica_R")
+setwd("D:/Enem2019")
 
 # Carga dos microdados
 
@@ -45,7 +45,3 @@ View(enem_sp_2019)
 
 #EXPORTAR ARQUIVO
 write.table(enem_sp_2019, file ="enem_sp_2019.csv", sep = ",")
-
-
-
-

@@ -3,26 +3,26 @@
 #############################
 
 
-# CÃ¡lculos MatemÃ¡ticos bÃ¡sicos
+# Cálculos Matemáticos básicos
 3 + 4       # soma
-10 - 6      # subtraÃ§Ã£o
-3 * 5       # multiplicaÃ§Ã£o
-20 / 4      # divisÃ£o
-2**3        # potenciaÃ§Ã£o
+10 - 6      # subtração
+3 * 5       # multiplicação
+20 / 4      # divisão
+2**3        # potenciação
 sqrt(9)     # raiz quadrada
 
-# Nomeando variÃ¡veis
+# Nomeando variáveis
 a <- 5
 plot(a)
 a
 b = 8
 plot(b)
 
-# CÃ¡lculo com variÃ¡veis
+# Cálculo com variáveis
 c <- a * b
 c
 
-# InstalaÃ§Ã£o de pacotes
+# Instalação de pacotes
 install.packages("dplyr")
 
 # Carregando o pacote
@@ -35,8 +35,5 @@ library(dplyr)
 x = c(2,4,6,8,10,12,14)
 y <- c(1,3,5,7,9,11,13)
 
-# Plotando um grÃ¡fico
+# Plotando um gráfico
 plot(x,y)
-
-
-
