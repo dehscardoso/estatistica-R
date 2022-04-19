@@ -16,11 +16,9 @@ setwd("D:/Enem2019")
 enem2019_tratado <- read.csv('enem2019_tratado.csv', sep = ",")
 
 #MÉDIA
-
 mean(enem2019_tratado$NOTA_MT)
 
 #MEDIANA
-
 median(enem2019_tratado$NOTA_MT)
 
 #MODA
